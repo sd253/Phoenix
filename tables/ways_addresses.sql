@@ -1,0 +1,30 @@
+create table ways_addresses
+(
+
+    "id" int primary key not null,
+    "housenumber" text,
+    "city" text,
+    "postcode" text,
+    "state" text,
+    "country" text,
+    "street" text,
+    "housename" text,
+    "inclusion" text,
+    "unit" text,
+    "interpolation" text,
+    "full" text,
+    "place" text,
+    "suite" text,
+    "flats" text,
+    "shortZip" text,
+    "streetPrefix" text,
+    "streetName" text,
+    "streetType" text,
+    "streetPostfix" text,
+    "streetSoundex" text,
+    "shortAddress" text,
+    "joinAddress"   text,
+    "suggestedAddress" text,
+    "suggestedZip" text,
+    "suggestedCity" text
+);
